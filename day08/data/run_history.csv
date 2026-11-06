@@ -1,0 +1,21 @@
+test,run1,run2,run3,run4,run5,run6,run7,run8,run9,run10,run11,run12,run13,run14,run15,run16,run17,run18,run19,run20
+checkout.spec.ts > applies SAVE10 to a Rs 1000 cart,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,F,F,F,F,F
+checkout.spec.ts > caps the discount at Rs 200,P,P,P,P,P,P,P,P,P,P,P,F,F,F,F,F,F,F,F,F
+checkout.spec.ts > rejects a Rs 499 cart,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+checkout.spec.ts > accepts a lower-case code,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+checkout.spec.ts > shows the pay button,P,P,P,P,P,P,P,P,P,F,F,P,P,F,P,P,P,P,P,F
+orders.spec.ts > shows order status,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+orders.spec.ts > lists late orders,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+orders.spec.ts > opens order details,P,P,P,P,P,P,P,P,P,P,P,F,F,F,F,F,F,F,F,F
+tracking.spec.ts > shows the courier link,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+tracking.spec.ts > updates status to Shipped,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+login.spec.ts > signs in with email,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+login.spec.ts > rejects a wrong password,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+cart.spec.ts > adds an item,P,F,F,P,P,P,F,P,P,P,F,F,F,P,P,P,F,F,F,P
+cart.spec.ts > removes an item,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+cart.spec.ts > keeps the cart after reload,P,P,P,P,P,P,P,P,P,F,F,P,F,P,F,P,P,P,P,F
+search.spec.ts > finds a product by name,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+search.spec.ts > shows no results message,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+profile.spec.ts > updates the phone number,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+profile.spec.ts > updates the address,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P
+returns.spec.ts > starts a return,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P

@@ -1,0 +1,13 @@
+{
+  "name": "AI QA and Delivery Assistant (Day 8)",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "secrets": {
+    "GEMINI_API_KEY": {"description": "Your Gemini API key from Google AI Studio"}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+    }
+  }
+}

@@ -1,0 +1,272 @@
+[
+ {
+  "run": 10,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user meera.nair@example.com reached payment for ORD-1945; page load 23s"
+ },
+ {
+  "run": 15,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user ravi.kumar@example.com reached payment for ORD-1097; page load 14s"
+ },
+ {
+  "run": 12,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1071 returned 500",
+  "log": "GET /api/orders?customer=ravi.kumar 500 in 811ms"
+ },
+ {
+  "run": 17,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 147; caller phone 9123456780"
+ },
+ {
+  "run": 12,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user asha.iyer@example.com reached payment for ORD-1863; page load 13s"
+ },
+ {
+  "run": 15,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user asha.iyer@example.com reached payment for ORD-1727; page load 31s"
+ },
+ {
+  "run": 11,
+  "test": "cart.spec.ts > adds an item",
+  "error": "Error: net::ERR_CONNECTION_RESET at https://staging.orion-shop.test/cart",
+  "log": "retry 1 of 2 for asha.iyer@example.com"
+ },
+ {
+  "run": 3,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1206 returned 500",
+  "log": "GET /api/orders?customer=meera.nair 500 in 378ms"
+ },
+ {
+  "run": 3,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user meera.nair@example.com reached payment for ORD-1993; page load 21s"
+ },
+ {
+  "run": 4,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2500 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 13,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2500 for ravi.kumar@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 14,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1757 returned 500",
+  "log": "GET /api/orders?customer=asha.iyer 500 in 698ms"
+ },
+ {
+  "run": 7,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 230",
+  "log": "cart total Rs 2500 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 10,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user meera.nair@example.com reached payment for ORD-1830; page load 9s"
+ },
+ {
+  "run": 11,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 250",
+  "log": "cart total Rs 2300 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 11,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user ravi.kumar@example.com reached payment for ORD-1647; page load 18s"
+ },
+ {
+  "run": 4,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 145; caller phone 9123456780"
+ },
+ {
+  "run": 6,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user asha.iyer@example.com reached payment for ORD-1171; page load 26s"
+ },
+ {
+  "run": 4,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 146; caller phone 9876543210"
+ },
+ {
+  "run": 19,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1718 returned 500",
+  "log": "GET /api/orders?customer=meera.nair 500 in 475ms"
+ },
+ {
+  "run": 2,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 141; caller phone 8012345678"
+ },
+ {
+  "run": 16,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2500 for ravi.kumar@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 7,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 230",
+  "log": "cart total Rs 2300 for ravi.kumar@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 6,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user asha.iyer@example.com reached payment for ORD-1353; page load 21s"
+ },
+ {
+  "run": 8,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1148 returned 500",
+  "log": "GET /api/orders?customer=ravi.kumar 500 in 663ms"
+ },
+ {
+  "run": 4,
+  "test": "cart.spec.ts > adds an item",
+  "error": "Error: net::ERR_CONNECTION_RESET at https://staging.orion-shop.test/cart",
+  "log": "retry 1 of 2 for asha.iyer@example.com"
+ },
+ {
+  "run": 6,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1563 returned 500",
+  "log": "GET /api/orders?customer=asha.iyer 500 in 715ms"
+ },
+ {
+  "run": 18,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1763 returned 500",
+  "log": "GET /api/orders?customer=meera.nair 500 in 613ms"
+ },
+ {
+  "run": 11,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2300 for asha.iyer@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 3,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2500 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 18,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 250",
+  "log": "cart total Rs 2300 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 7,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 143; caller phone 8012345678"
+ },
+ {
+  "run": 20,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user meera.nair@example.com reached payment for ORD-1988; page load 20s"
+ },
+ {
+  "run": 3,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 30000ms",
+  "log": "user ravi.kumar@example.com reached payment for ORD-1415; page load 30s"
+ },
+ {
+  "run": 8,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 230",
+  "log": "cart total Rs 2500 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ },
+ {
+  "run": 6,
+  "test": "checkout.spec.ts > shows the pay button",
+  "error": "TimeoutError: locator('#pay-now') not visible after 45000ms",
+  "log": "user asha.iyer@example.com reached payment for ORD-1893; page load 30s"
+ },
+ {
+  "run": 3,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 144; caller phone 9876543210"
+ },
+ {
+  "run": 15,
+  "test": "cart.spec.ts > adds an item",
+  "error": "Error: net::ERR_CONNECTION_RESET at https://staging.orion-shop.test/cart",
+  "log": "retry 1 of 2 for meera.nair@example.com"
+ },
+ {
+  "run": 13,
+  "test": "cart.spec.ts > adds an item",
+  "error": "Error: net::ERR_CONNECTION_RESET at https://staging.orion-shop.test/cart",
+  "log": "retry 1 of 2 for ravi.kumar@example.com"
+ },
+ {
+  "run": 15,
+  "test": "cart.spec.ts > adds an item",
+  "error": "Error: net::ERR_CONNECTION_RESET at https://staging.orion-shop.test/cart",
+  "log": "retry 1 of 2 for ravi.kumar@example.com"
+ },
+ {
+  "run": 14,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1725 returned 500",
+  "log": "GET /api/orders?customer=ravi.kumar 500 in 656ms"
+ },
+ {
+  "run": 17,
+  "test": "checkout.spec.ts > applies SAVE10 to a Rs 1000 cart",
+  "error": "Error: locator('button.apply-code') resolved to 0 elements",
+  "log": "apply-code button renamed in build 143; caller phone 8012345678"
+ },
+ {
+  "run": 2,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1459 returned 500",
+  "log": "GET /api/orders?customer=ravi.kumar 500 in 668ms"
+ },
+ {
+  "run": 13,
+  "test": "orders.spec.ts > opens order details",
+  "error": "Error: GET /api/orders/ORD-1137 returned 500",
+  "log": "GET /api/orders?customer=ravi.kumar 500 in 269ms"
+ },
+ {
+  "run": 13,
+  "test": "checkout.spec.ts > caps the discount at Rs 200",
+  "error": "AssertionError: expected discount 200, received 210",
+  "log": "cart total Rs 2300 for meera.nair@example.com, card 4111 1111 1111 1111 on file"
+ }
+]
